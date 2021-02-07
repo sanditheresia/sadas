@@ -1,0 +1,183 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font: 12px 'Poppins', arial;
+  cursor: default;
+  background: #fcfcfc;
+}
+.linktree-2 {
+  display: table;
+  width: 100%;
+  max-width: 480px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.linktree-2 .logo {
+  display: table;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.linktree-2 .logo img {
+  display: block;
+  width: auto;
+  height: 55px;
+}
+.linktree-2 ul {
+  display: table;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.linktree-2 ul li {
+  list-style: none;
+  display: table;
+  width: 100%;
+  padding: 0 0 6px 0;
+  box-sizing: border-box;
+}
+.linktree-2 ul li a {
+  display: block;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.linktree-2 ul li a::after {
+  content: attr(data-title);
+  padding: 0 10px 10px 10px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: -60px 0 0 0;
+  position: relative;
+  z-index: 2;
+  line-height: 14px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0);
+  background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(100%, rgba(0, 0, 0, 0.6)));
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: -ms-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#000000', GradientType=0);
+}
+.linktree-2 ul li a img {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #ddd;
+}
+.linktree-2 ul li a.text-left::after {
+  justify-content: flex-start;
+}
+.linktree-2 ul li a.text-right::after {
+  justify-content: flex-end;
+}
+.linktree-2 ul.static-layout li:nth-child(2) {
+  float: left;
+  width: 50%;
+  padding-right: 3px;
+}
+.linktree-2 ul.static-layout li:nth-child(3) {
+  float: right;
+  width: 50%;
+  padding-left: 3px;
+}
+.linktree-2 ul.repeat-layout li:nth-child(odd) {
+  float: left;
+  width: 50%;
+  padding-right: 3px;
+}
+.linktree-2 ul.repeat-layout li:nth-child(even) {
+  float: right;
+  width: 50%;
+  padding-left: 3px;
+}
+.linktree-2 .linktree-2-copy {
+  display: block;
+  padding: 35px 25px 15px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.contact_us {
+  display: block;
+  padding: 30px 20px 15px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.row.mb-4.button {
+  margin-right: -1px!important;
+    margin-left: -1px!important;
+}
+
+
+.icon-3d {
+  padding: 10px;
+  -webkit-animation: icon3d 200ms 10;
+  animation: icon3d 200ms 10;
+  color: black;
+}
+.icon-3d:hover {
+  -webkit-animation: icon3d 200ms infinite;
+  animation: icon3d 200ms infinite;
+}
+
+@keyframes icon3d {
+  0% {
+    text-shadow: 5px 4px #f44336, -5px -6px #2196f3;
+  }
+  25% {
+    text-shadow: -5px -6px #f44336, 5px 4px #2196f3;
+  }
+  50% {
+    text-shadow: 5px -4px #f44336, -8px 4px #2196f3;
+  }
+  75% {
+    text-shadow: -8px -4px #f44336, -5px -4px #2196f3;
+  }
+  100% {
+    text-shadow: -5px 0 #f44336, 5px -4px #2196f3;
+  }
+}
+
+.flex-center {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+i.fab.fa-tiktok.fa-2x.icon-3d {
+margin-right: 20px;
+}
+
+i.fa.fa-facebook.fa-2x {
+  margin-right: 28px;
+}
+
+
+
+
